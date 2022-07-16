@@ -7,7 +7,7 @@
                         <a href="index.php?halaman=add_user" class="btn btn-success"><span class="fa fa-plus"></span> Tambah User</a>
                           <div class="col-sm-12">
                             <div class="card-box table-responsive">
-                    <table id="datatable" class="table table-striped table-bordered" style="width:100%">
+                    <table id="datatable" class="table table-hover table-bordered" style="width:100%">
                       <thead>
                         <tr>
                           <th>No</th>

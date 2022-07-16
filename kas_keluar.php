@@ -1,4 +1,4 @@
-                <div class="right_col" rol="main">
+                <div class="right_col" rol="main" style="min-height: 10.3em;">
                     <div class="x_title">
                       <h1>Kas keluar</h1>
                     </div>
@@ -7,7 +7,7 @@
                         <a href="index.php?halaman=tambah_kas_keluar" class="btn btn-success"><span class="fa fa-plus"></span> Tambah data kas keluar</a>
                           <div class="col-sm-12">
                             <div class="card-box table-responsive">
-                    <table id="datatable" class="table table-striped table-bordered" style="width:100%">
+                    <table id="datatable" class="table table-hover table-bordered" style="width:100%">
                       <thead>
                         <tr>
                           <th>No</th>

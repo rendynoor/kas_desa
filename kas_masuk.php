@@ -1,4 +1,4 @@
-<div class="right_col" rol="main">
+  <div class="right_col" rol="main" style="min-height:10.3em;">
   <div class="x_title">
     <h1>Kas Masuk</h1>
   </div>
@@ -7,7 +7,7 @@
                         <a href="index.php?halaman=tambah_kas_masuk" class="btn btn-success"><span class="fa fa-plus"></span> Tambah data</a>
                           <div class="col-sm-12">
                             <div class="card-box table-responsive">
-                    <table id="datatable" class="table table-striped table-bordered" style="width:100%">
+                    <table id="datatable" class="table table-hover table-bordered" >
                       <thead>
                         <tr>
                           <th>No</th>
@@ -27,7 +27,7 @@
                         <tr>
                           <td><?php echo $no; ?></td>
                           <td><?php echo $data['tanggal']; ?></td>
-                          <td><?php echo $data['keterangan']; ?></td>
+                          <td><?php echo  $data['keterangan']; ?></td>
                           <td>Rp<?php echo number_format($data['kas_masuk']); ?></td>
                          
                           <td>
